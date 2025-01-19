@@ -1,0 +1,17 @@
+Porównanie zarządzania konfiguracją: ISO/IEEE a GitHub
+Element ZKO	ISO/IEEE	GitHub
+Identyfikacja konfiguracji	Każdy element ma unikalny identyfikator. Tworzy się hierarchię elementów od modułów po pełne wersje produktu.	Tagi i release’y umożliwiają oznaczanie wersji kodu. Hierarchia realizowana przez struktury folderów i branchy.
+Kontrola zmian	Zmiany wymagają zatwierdzenia i dokumentacji. Historia pozwala wrócić do wcześniejszych wersji.	Pull requesty umożliwiają przegląd i zatwierdzanie zmian. Historia commitów rejestruje wszystkie modyfikacje.
+Przechowywanie konfiguracji	Elementy przechowywane są w bezpiecznych repozytoriach, z uwzględnieniem dostępu do różnych formatów danych.	Kod jest przechowywany w repozytoriach online z zaawansowanym systemem zarządzania dostępem i kopii zapasowych.
+Dokumentacja	Zmiany muszą być szczegółowo opisane, włącznie z przyczynami i sposobami usunięcia błędów.	Opis zmian dodawany jest do commitów, pull requestów i release’ów. Wspierany jest format Markdown.
+Produkty bazowe	Produkty zatwierdzane jako bazowe są niemodyfikowalne i stanowią punkt odniesienia dla kolejnych etapów pracy.	Tagi oraz chronione gałęzie (protected branches) spełniają funkcję produktów bazowych.
+Plan zarządzania konfiguracją	Formalny dokument opisujący role, procedury i narzędzia związane z zarządzaniem konfiguracją projektu.	Dokumentacja projektowa, pliki README oraz GitHub Actions definiują procedury i automatyzacje związane z projektem.
+Rozwinięte podsumowanie
+Zarządzanie konfiguracją według standardów ISO/IEEE jest fundamentem dużych, złożonych projektów, gdzie priorytetem jest kontrola, transparentność i stabilność procesu. Definiowanie produktów bazowych, precyzyjne dokumentowanie zmian czy hierarchiczne podejście do organizacji elementów projektu pozwala na zachowanie porządku, co jest szczególnie istotne w długoterminowych przedsięwzięciach.
+GitHub realizuje te same cele w nowoczesny, zautomatyzowany sposób, ułatwiając zarządzanie zarówno małymi, jak i dużymi projektami. Narzędzie to integruje takie funkcje jak:
+Identyfikacja zmian za pomocą tagów i release’ów,
+Bezpieczne przechowywanie kodu w chmurze,
+Kontrola jakości przez pull requesty i system recenzji,
+Automatyzacja procesów dzięki GitHub Actions.
+GitHub przewyższa tradycyjne podejście ZKO w aspekcie dostępności i łatwości użycia. Dzięki intuicyjnemu interfejsowi, integracji z narzędziami zewnętrznymi oraz zaawansowanym funkcjom, takim jak ochrona branchy czy automatyczne release’y, staje się standardem w nowoczesnych projektach programistycznych.
+Ostatecznie wybór między podejściem tradycyjnym a zautomatyzowanym zależy od specyfiki projektu. Dla dużych organizacji ważne jest przestrzeganie standardów ISO/IEEE, szczególnie w środowiskach regulowanych, takich jak przemysł czy sektor publiczny. Natomiast GitHub, ze swoją elastycznością i wsparciem dla DevOps, jest idealnym rozwiązaniem w szybko rozwijających się projektach technologicznych, gdzie kluczowa jest efektywność i tempo pracy. Oba podejścia można także łączyć, aby wykorzystać ich największe zalety i dostosować je do potrzeb konkretnego projektu.
